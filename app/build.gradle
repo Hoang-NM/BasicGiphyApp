@@ -55,6 +55,9 @@ dependencies {
     api "androidx.constraintlayout:constraintlayout:$constraint_layout"
     api "androidx.recyclerview:recyclerview:$recycler_view"
 
+    //Flex Box Layout
+    implementation 'com.google.android:flexbox:2.0.1'
+
     //Navigation
     api "androidx.navigation:navigation-fragment:$navigation"
     api "androidx.navigation:navigation-ui:$navigation"
@@ -90,6 +93,8 @@ dependencies {
     api "com.squareup.retrofit2:converter-gson:$retrofit_version"
     api "com.github.akarnokd:rxjava3-retrofit-adapter:$retrofit_rxjava3_adapter_version"
 
+    //Networking logging
+    api 'com.squareup.okhttp3:logging-interceptor:4.9.0'
 
     //Serializer
     api "com.google.code.gson:gson:$gson"

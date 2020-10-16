@@ -1,2 +1,2 @@
 # BasicGiphyApp
-MVVM - Dagger2 - ReactiveJava3 - Room - Retrofit
+Clean Architechture - MVVM - Dagger2 - RxAndroid - Room - Retrofit
